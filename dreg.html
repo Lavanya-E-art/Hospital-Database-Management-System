@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <style>
+body{
+background-image: url("i7.png");
+background-color: white;
+background-repeat: no-repeat;
+background-size:100%;
+}
+.btn {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.success {
+  border-color: #4CAF50;
+  color: green;
+}
+
+.success:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+h1 {
+  color: blue;
+  font-family: verdana;
+  font-size: 200%;
+}
+input[type="text"] {
+    width: 200px;
+    height: 25px;
+}
+</style>
+        <body>
+        <form action="docin.jsp" method="post">
+        <table align="center">
+            <tr>
+                <th colspan="2" style="padding: 20px;"><h1><u>REGISTRATION OF NEW DOCTOR</u></h1></th>
+            </tr>
+            <tr>
+                <td> <font size="5">Doctor Id</font></td><td><input type="text" name="p1"></td>
+            </tr>
+            <tr>
+                <td><font size="5"> Doctor First Name</font></td><td><input type="text" name="p2"></td>
+            </tr>
+            <tr>
+                <td> <font size="5">Doctor Last Name</font></td><td><input type="text" name="p3"></td>
+            </tr>
+            <tr>
+                <td><font size="5"> Doctor Gender</font></td><td>Male<input type="radio" name="p4" value="M">Female<input type="radio" name="p4" value="F"></td>
+            </tr>
+            <tr>
+                <td> <font size="5">Doctor Address</font></td><td><input type="text" name="p5"></td>
+            </tr>
+            <tr>
+                <td> <font size="5">Doctor Specialization</font></td><td><input type="text" name="p6"></td>
+            </tr>
+            <tr>
+                <td><font size="5">Doctor Phone No.</font></td><td><input type="text" name="p7"></td>
+            </tr>
+            
+            <tr>
+            
+                <td></td><td style="padding: 20px;"><center><button class="btn success">ADD DOCTOR</button></center></td>
+           
+            </tr>
+        </table>
+             </form>
+    </body>
+</html>
